@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Volume Lab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>Todo List</h1>
+        <p>Docker Volume Lab</p>
+    </header>
+
+    <form id="todo-form">
+        <input
+            id="todo-input"
+            type="text"
+            placeholder="What needs to be done?"
+            autocomplete="off"
+            required
+        />
+
+        <button type="submit">Add</button>
+    </form>
+
+    <div class="stats">
+        <span id="total">0 tasks</span>
+        <span id="completed">0 completed</span>
+    </div>
+
+    <ul id="todo-list"></ul>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
